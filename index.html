@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#05070d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Surge Sphere">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icon-192.png">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<title>Surge Sphere · Kraken heat map</title>
+  <script type="module" crossorigin src="./assets/index-D7npjtIk.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DGVtqvZ6.css">
+</head>
+<body>
+<header>
+  <a id="csBack" href="../../index.html?screen=home" hidden>‹ Solar system</a>
+  <h1>SURGE SPHERE <span>Kraken heat map</span></h1>
+  <div id="status" class="status">connecting…</div>
+</header>
+<nav class="bar">
+  <div id="windows" class="seg"></div>
+  <button id="sortBtn" class="chip">Sort: biggest mover</button>
+  <a id="standalone" class="chip" href="https://cosmicshowdownadmin.github.io/kraken-heatmap/" target="_blank" rel="noopener" hidden>Open standalone ↗</a>
+</nav>
+<nav id="groups" class="bar chips"></nav>
+<main id="grid"></main>
+<footer id="foot"></footer>
+<section id="panel" hidden>
+  <div class="phead">
+    <button id="pclose" class="chip">✕</button>
+    <div><b id="ptitle"></b> <span id="ptags"></span></div>
+    <div id="pstats"></div>
+  </div>
+  <div id="pwin" class="seg"></div>
+  <div id="chart"></div>
+  <div id="pnote" class="note"></div>
+</section>
+</body>
+</html>
